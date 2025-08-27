@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Background Color Changer</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 50px;
+      transition: background-color 0.5s ease;
+    }
+
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+    }
+
+    .red {
+      background-color: #e74c3c;
+    }
+
+    .green {
+      background-color: #2ecc71;
+    }
+
+    .blue {
+      background-color: #3498db;
+    }
+
+    .purple {
+      background-color: #8e44ad;
+    }
+  </style>
+</head>
+
+<body>
+  <h2> Background Color Changer</h2>
+  <p>Click a button to change the background color:</p>
+  <button class="red" onclick="changeColor('red')">Red</button>
+  <button class="green" onclick="changeColor('green')">Green</button>
+  <button class="blue" onclick="changeColor('blue')">Blue</button>
+  <button class="purple" onclick="changeColor('purple')">Purple</button>
+    <label for="colorPicker">Choose background color:</label>
+    <input id="colorPicker" type="color" value="#ffffff" />
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
