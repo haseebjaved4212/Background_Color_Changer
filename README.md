@@ -64,3 +64,8 @@ Optional: serve the folder from a simple local server (e.g., VS Code Live Server
 - Extract CSS and JS to separate files for scalability.
 
 ---
+
+## Preview 
+Wanna see Preview. (Click Here👇) 
+
+- https://haseebjaved4212.github.io/Background_Color_Changer/
